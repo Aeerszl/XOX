@@ -1,19 +1,21 @@
-.container {
-    text-align: center;
-  }
-  .title {
-    margin-top: 15px;
-    color: white;
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .title span {
-    color: #26ffcb;
-    padding-left: 15px;
-  }
-  .reset {
+
+.container{
+   text-align: center;
+
+}
+.title {
+margin-top: 40px;
+color:white;
+font-size: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.title span {
+color: #26ffcb;
+padding-left: 15px;
+}
+.reset{
     width: 200px;
     height: 80px;
     border: none;
@@ -23,35 +25,37 @@
     background: #1f3540;
     font-size: 26px;
     color: #26ffcb;
-    margin-top: 15px;
-    margin-bottom: 30px;
-  }
-  .boxes {
-    height: 150px;
-    width: 150px;
-    background: #1f3540;
-    border: 3px solid #0f1b21;
-    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.boxes{
+    display: flex;
+    height: 140px;
+    width: 140px;       
+    background:#1f3540;;
+   border: 3px solid #0f1b21;
+  border-radius: 9px;
     cursor: pointer;
-  }
-  .board {
+}
+.board{
     height: 430px;
     width: 420px;
     display: flex;
-    margin: auto;
-  }
-  .boxes img {
-    margin: 30px;
-  }
-  .title img {
-    padding: 15px 15px;
-    height: 50px;
-  }
+   margin:auto ;
+}
+.boxes img{
+  height: 50px;
+    margin: 25px;
+}
+.title img{
+ padding: 20px 20px;
+ height: 50px;
+}
   
   /* Add media queries to make it responsive */
   
   /* For small screens (mobiles) */
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 767px) {
     .title {
         margin-top: 80px;
         color: white;
@@ -66,12 +70,12 @@
       }
    .board {
       height: 300px;
-      width: 285px;
+      width: 295px;
     }
    .boxes {
     
-      height: 100px;
-      width: 100px;
+      height: 90px;
+      width: 90px;
     }
     
   .boxes img {
@@ -93,7 +97,7 @@
   }
   
   /* For medium screens (tablets) */
-  @media only screen and (min-width: 601px) and (max-width: 900px) {
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
     .title {
         margin-top: 60px;
         color: white;
@@ -107,18 +111,18 @@
         padding-left: 3px;
       }
    .board {
-      height: 440px;
-      width: 425x;
+      height: 340px;
+      width: 520x;
     }
    .boxes {
-      height: 155px;
-      width: 155px;
+      height: 125px;
+      width: 125px;
     }
     
   .boxes img {
     
-    height:80px;
-    margin: 40px;
+    height:70px;
+    margin: 35px;
   }
     .title img {
         padding: 10px 10px;
@@ -127,23 +131,36 @@
      }
   
    .reset {
-    margin-top: 50px;
+    margin-top: 70px;
       width: 150px;
       height: 60px;
     }
   }
   
   /* For large screens (desktops) */
-  @media only screen and (min-width: 901px) {
+  @media only screen and (min-width: 992px) and (max-width: 1680px) {
+    .title {
+        margin-top: 30px;
+        color: white;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .title span {
+        color: #26ffcb;
+        padding-left: 3px;
+      }
    .board {
-      height: 500px;
-      width: 500px;
+      height: 350px;
+      width: 320px;
     }
    .boxes {
-      height: 150px;
-      width: 150px;
+      height: 100px;
+      width: 100px;
     }
    .reset {
+     margin-top: 40px;
       width: 220px;
       height: 80px;
     }
